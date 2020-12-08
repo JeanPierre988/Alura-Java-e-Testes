@@ -19,11 +19,12 @@ public class TesteDoAvaliador {
         Avaliador leiloeiro = new Avaliador();
         leiloeiro.avalia(leilao);
 
-        double maiorEsperado = 410;
+        double maiorEsperado = 400;
         double menorEsperado = 250;
 
         Assertions.assertEquals(maiorEsperado, leiloeiro.getMaiorLance(), 0.00001);
         Assertions.assertEquals(menorEsperado, leiloeiro.getMenorLance(), 0.00001);
-        Assertions.assertEquals
+
+
     }
 }

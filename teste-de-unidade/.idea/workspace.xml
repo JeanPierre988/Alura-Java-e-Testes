@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ed13fb-3195-4e8c-899c-15d5438e604a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/TesteDoAvaliador.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/TesteDoAvaliador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/TesteDoAvaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/TesteDoAvaliador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste-de-unidade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/teste-de-unidade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Avaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Avaliador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,22 +96,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1607445885262">
+    <state width="1637" height="2" key="GridCell.Tab.0.bottom" timestamp="1607460104071">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010/982.-768.1366.728/1680.0.1680.1010@0.0.1680.1010" timestamp="1607445885262" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1607445885262">
+    <state width="1637" height="2" key="GridCell.Tab.0.bottom/0.0.1680.1010/982.-768.1366.728/1680.0.1680.1010@0.0.1680.1010" timestamp="1607460104071" />
+    <state width="1637" height="2" key="GridCell.Tab.0.center" timestamp="1607460104071">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010/982.-768.1366.728/1680.0.1680.1010@0.0.1680.1010" timestamp="1607445885262" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1607445885262">
+    <state width="1637" height="2" key="GridCell.Tab.0.center/0.0.1680.1010/982.-768.1366.728/1680.0.1680.1010@0.0.1680.1010" timestamp="1607460104071" />
+    <state width="1637" height="2" key="GridCell.Tab.0.left" timestamp="1607460104071">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010/982.-768.1366.728/1680.0.1680.1010@0.0.1680.1010" timestamp="1607445885262" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1607445885262">
+    <state width="1637" height="2" key="GridCell.Tab.0.left/0.0.1680.1010/982.-768.1366.728/1680.0.1680.1010@0.0.1680.1010" timestamp="1607460104071" />
+    <state width="1637" height="2" key="GridCell.Tab.0.right" timestamp="1607460104071">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010/982.-768.1366.728/1680.0.1680.1010@0.0.1680.1010" timestamp="1607445885262" />
+    <state width="1637" height="2" key="GridCell.Tab.0.right/0.0.1680.1010/982.-768.1366.728/1680.0.1680.1010@0.0.1680.1010" timestamp="1607460104071" />
     <state x="544" y="397" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607432151873">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

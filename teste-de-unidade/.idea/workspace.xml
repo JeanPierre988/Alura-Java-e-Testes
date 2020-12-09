@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6ed13fb-3195-4e8c-899c-15d5438e604a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/Avaliador.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/Avaliador.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/TesteDoAvaliador.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/TesteDoAvaliador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Avaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Avaliador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/TesteDoAvaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/TesteDoAvaliador.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -35,31 +33,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Avaliador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="323">
               <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/TesteDoAvaliador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="134" column="60" selection-start-line="134" selection-start-column="60" selection-end-line="134" selection-end-column="60" />
+            <state relative-caret-position="212">
+              <caret line="161" column="22" selection-start-line="161" selection-start-column="22" selection-end-line="161" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#deveEntenderLancesEmOrdemCrescente#0;class#TesteDoAvaliador#0" />
-                <element signature="method#deveEntenderLancesEmOrdemCrescente#1;class#TesteDoAvaliador#0" />
-                <element signature="method#deveEntenderLance#0;class#TesteDoAvaliador#0" />
-                <element signature="method#deveEntenderLanceUnico#1;class#TesteDoAvaliador#0" />
+                <element signature="method#deveEntenderLancesEmOrdemDecrescente#0;class#TesteDoAvaliador#0" />
+                <element signature="method#deveEntenderLanceUnico#0;class#TesteDoAvaliador#0" />
+                <element signature="method#deveEntenderLancesSemOrdem#0;class#TesteDoAvaliador#0" />
+                <element signature="method#deveEncontrarOsTresMaiores#0;class#TesteDoAvaliador#0" />
               </folding>
             </state>
           </provider>
@@ -106,6 +103,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,8 +131,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,7 +140,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607481484696" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607513113707" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaPlayground" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -160,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteDoAvaliador">
+  <component name="RunManager" selected="JUnit.TesteDoAvaliador">
     <configuration name="TesteDoAvaliador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.dominio.TesteDoAvaliador" />
       <module name="teste-de-unidade" />
@@ -190,8 +187,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteDoAvaliador" />
         <item itemvalue="JUnit.TesteDoAvaliador" />
+        <item itemvalue="Application.TesteDoAvaliador" />
       </list>
     </recent_temporary>
   </component>
@@ -207,16 +204,11 @@
       <updated>1607390502355</updated>
       <workItem from="1607390510848" duration="2597000" />
       <workItem from="1607472447157" duration="5456000" />
+      <workItem from="1607512416867" duration="698000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TesteDoAvaliador - 2020.12.09 at 00h 12m 46s.xml">
-      <configuration name="TesteDoAvaliador" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TesteDoAvaliador - 2020.12.09 at 00h 13m 20s.xml">
-      <configuration name="TesteDoAvaliador" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TesteDoAvaliador - 2020.12.09 at 00h 13m 31s.xml">
       <configuration name="TesteDoAvaliador" configurationId="JUnit" />
     </history-entry>
@@ -241,14 +233,20 @@
     <history-entry file="TesteDoAvaliador - 2020.12.09 at 00h 27m 46s.xml">
       <configuration name="TesteDoAvaliador" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TesteDoAvaliador - 2020.12.09 at 09h 23m 52s.xml">
+      <configuration name="TesteDoAvaliador" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteDoAvaliador - 2020.12.09 at 09h 24m 03s.xml">
+      <configuration name="TesteDoAvaliador" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8053000" />
+    <option name="totallyTimeSpent" value="8751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,13 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -307,28 +298,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Avaliador.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/TesteDoAvaliador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="134" column="60" selection-start-line="134" selection-start-column="60" selection-end-line="134" selection-end-column="60" />
+        <state relative-caret-position="212">
+          <caret line="161" column="22" selection-start-line="161" selection-start-column="22" selection-end-line="161" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#deveEntenderLancesEmOrdemCrescente#0;class#TesteDoAvaliador#0" />
-            <element signature="method#deveEntenderLancesEmOrdemCrescente#1;class#TesteDoAvaliador#0" />
-            <element signature="method#deveEntenderLance#0;class#TesteDoAvaliador#0" />
-            <element signature="method#deveEntenderLanceUnico#1;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEntenderLancesEmOrdemDecrescente#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEntenderLanceUnico#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEntenderLancesSemOrdem#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEncontrarOsTresMaiores#0;class#TesteDoAvaliador#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Avaliador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

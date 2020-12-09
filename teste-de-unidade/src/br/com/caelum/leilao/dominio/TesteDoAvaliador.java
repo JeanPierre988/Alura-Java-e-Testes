@@ -3,6 +3,7 @@ package br.com.caelum.leilao.dominio;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -99,8 +100,6 @@ public class TesteDoAvaliador {
         //3 Validação
         assertEquals(2000, leiloeiro.getMenorLance(), 0.00001);
         assertEquals(6000, leiloeiro.getMaiorLance(), 0.00001);
-
-
     }
 
     @Test
@@ -131,8 +130,19 @@ public class TesteDoAvaliador {
         assertEquals(6000.0, maiores.get(0).getValor(), 0.00001);
         assertEquals(5000.0, maiores.get(1).getValor(), 0.00001);
         assertEquals(4000.0, maiores.get(2).getValor(), 0.00001);
+    }
 
-        maiores.forEach(m -> System.out.println(m.getValor()));
+    @Test
+    public void deveSelecionarLancesDe5000ParaCima() {
+        Usuario joao = new Usuario("Joao");
+
+        FiltroDeLances filtro = new FiltroDeLances();
+        List<Lance> resultado = filtro.filtra(Arrays.asList(
+                new Lance(joao, 10000),
+                new Lance(joao, 800)));
+
+        assertEquals(1, resultado.size());
+        assertEquals(10000, resultado.get(0).getValor(), 0.00001);
     }
 
     @Test
@@ -163,8 +173,21 @@ public class TesteDoAvaliador {
         assertEquals(4000.0, maiores.get(0).getValor(), 0.00001);
         assertEquals(2000.0, maiores.get(1).getValor(), 0.00001);
 //        assertEquals(4000.0, maiores.get(2).getValor(), 0.00001);
+    }
 
-        maiores.forEach(m -> System.out.println(m.getValor()));
+    @Test
+    public void deveEncontrarListaVazia() {
+        //1 Cenário
+        Leilao leilao = new Leilao("Carro Novo");
+
+        //2 Ação
+        Avaliador leiloeiro = new Avaliador();
+        leiloeiro.avalia(leilao);
+
+        List<Lance> maiores = leiloeiro.getTresMaiores();
+
+        //3 Validação
+        assertEquals(0, maiores.size());
     }
 }
 

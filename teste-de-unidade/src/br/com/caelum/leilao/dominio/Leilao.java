@@ -25,13 +25,15 @@ public class Leilao {
     public void dobraLance(Usuario user) {
         Lance ultimo = ultimoLanceDo(user);
 
-        propoe(new Lance(user, ultimo.getValor()*2));
+        if (ultimo != null) {
+            propoe(new Lance(user, ultimo.getValor() * 2));
+        }
     }
 
     private Lance ultimoLanceDo(Usuario user) {
         Lance ultimo = null;
         for (Lance lance : lances) {
-            if (lance.getUsuario().equals(user)) ultimo=lance;
+            if (lance.getUsuario().equals(user)) ultimo = lance;
         }
         return ultimo;
     }

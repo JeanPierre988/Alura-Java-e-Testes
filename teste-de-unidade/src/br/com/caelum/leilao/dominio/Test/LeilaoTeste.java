@@ -75,10 +75,21 @@ public class LeilaoTeste {
         Usuario steve = new Usuario("Jobs");
         Usuario bill = new Usuario("Gates");
 
+        leilao.propoe(new Lance(steve, 1000.0));
+        leilao.propoe(new Lance(bill, 2500.0));
         leilao.propoe(new Lance(steve, 2000.0));
         leilao.propoe(new Lance(bill, 3000.0));
         leilao.dobraLance(steve);
 
-        assertEquals(4000, leilao.getLances().get(2).getValor(), 0.00001);
+        assertEquals(4000, leilao.getLances().get(4).getValor(), 0.00001);
+    }
+
+    @Test
+    public void naoDobraLanceDoUsuarioCasoNaoExistaLanceAnterior() {
+        Leilao leilao = new Leilao("Bike");
+        Usuario steve = new Usuario("Jobs");
+        leilao.dobraLance(steve);
+
+        assertEquals(0, leilao.getLances().size(), 0.00001);
     }
 }

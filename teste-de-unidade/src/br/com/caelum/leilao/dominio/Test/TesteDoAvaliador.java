@@ -1,5 +1,6 @@
-package br.com.caelum.leilao.dominio;
+package br.com.caelum.leilao.dominio.Test;
 
+import br.com.caelum.leilao.dominio.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

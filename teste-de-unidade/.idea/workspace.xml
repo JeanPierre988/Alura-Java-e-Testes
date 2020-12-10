@@ -2,18 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ed13fb-3195-4e8c-899c-15d5438e604a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/FiltroDeLances.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Test/LeilaoTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/TesteDoAvaliador.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/TesteDoAvaliador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/leilao/dominio/TesteDoAvaliador.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/TesteDoAvaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/TesteDoAvaliador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Test/LeilaoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Test/LeilaoTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/TesteDoAvaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Test/TesteDoAvaliador.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Avaliador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Test/LeilaoTeste.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+              <folding>
+                <element signature="method#deveReceberUmLance#0;class#LeilaoTeste#0" />
+                <element signature="method#deveReceberVariosLances#0;class#LeilaoTeste#0" />
+                <element signature="method#naoDeveAceitarDoisLancesSeguidosDoMesmoUsuario#0;class#LeilaoTeste#0" />
+                <element signature="method#naoDeveAceitarMaisDoQue5LancesDeUmMesmoUsuario#0;class#LeilaoTeste#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Lance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,8 +72,60 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Test/TesteDoAvaliador.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Test/LeilaoTeste.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
   <component name="ProjectId" id="1lQX52HEmvCkZRCkt1nPRMwtJJQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="teste-de-unidade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teste-de-unidade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teste-de-unidade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teste-de-unidade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teste-de-unidade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teste-de-unidade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dominio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teste-de-unidade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teste-de-unidade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dominio" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,13 +137,38 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607513113707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607599836356" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaPlayground" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.LeilaoTeste">
+    <configuration name="LeilaoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.dominio.Test.LeilaoTeste" />
+      <module name="teste-de-unidade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.caelum.leilao.dominio.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeilaoTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste-de-unidade" />
       <extension name="coverage">
@@ -55,23 +179,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.caelum.leilao.dominio.Test" />
       <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.dominio.Test.LeilaoTeste" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeilaoTeste.deveReceberUmLance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="teste-de-unidade" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.caelum.leilao.dominio.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.dominio.Test" />
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.dominio.Test.LeilaoTeste" />
-      <option name="METHOD_NAME" value="deveReceberUmLance" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,6 +194,22 @@
       <option name="PACKAGE_NAME" value="br.com.caelum.leilao.dominio.Test" />
       <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.dominio.Test.LeilaoTeste" />
       <option name="METHOD_NAME" value="deveReceberVariosLances" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeilaoTeste.dobraLanceDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teste-de-unidade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.caelum.leilao.dominio.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.dominio.Test" />
+      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.dominio.Test.LeilaoTeste" />
+      <option name="METHOD_NAME" value="dobraLanceDoUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,32 +231,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteDoAvaliador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="teste-de-unidade" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.caelum.leilao.dominio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.dominio" />
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.dominio.TesteDoAvaliador" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LeilaoTeste" />
+        <item itemvalue="Application.LeilaoTeste" />
+        <item itemvalue="JUnit.LeilaoTeste.dobraLanceDoUsuario" />
         <item itemvalue="JUnit.LeilaoTeste.naoDeveAceitarDoisLancesSeguidosDoMesmoUsuario" />
         <item itemvalue="JUnit.LeilaoTeste.deveReceberVariosLances" />
-        <item itemvalue="JUnit.LeilaoTeste.deveReceberUmLance" />
-        <item itemvalue="JUnit.TesteDoAvaliador" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -147,11 +255,79 @@
       <workItem from="1607390510848" duration="2597000" />
       <workItem from="1607472447157" duration="5456000" />
       <workItem from="1607512416867" duration="698000" />
+      <workItem from="1607564152441" duration="1604000" />
+      <workItem from="1607597427797" duration="2393000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LeilaoTeste - 2020.12.10 at 09h 19m 09s.xml">
+      <configuration name="LeilaoTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeilaoTeste - 2020.12.10 at 09h 19m 32s.xml">
+      <configuration name="LeilaoTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeilaoTeste - 2020.12.10 at 09h 20m 53s.xml">
+      <configuration name="LeilaoTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeilaoTeste_dobraLanceDoUsuario - 2020.12.10 at 09h 23m 27s.xml">
+      <configuration name="LeilaoTeste.dobraLanceDoUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeilaoTeste - 2020.12.10 at 09h 23m 38s.xml">
+      <configuration name="LeilaoTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeilaoTeste - 2020.12.10 at 09h 23m 48s.xml">
+      <configuration name="LeilaoTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeilaoTeste - 2020.12.10 at 09h 25m 49s.xml">
+      <configuration name="LeilaoTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeilaoTeste - 2020.12.10 at 09h 28m 54s.xml">
+      <configuration name="LeilaoTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeilaoTeste - 2020.12.10 at 09h 29m 10s.xml">
+      <configuration name="LeilaoTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeilaoTeste - 2020.12.10 at 09h 30m 18s.xml">
+      <configuration name="LeilaoTeste" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8751000" />
+    <option name="totallyTimeSpent" value="12748000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297062" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297062" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -181,6 +357,66 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="570" y="255" key="extract.method.dialog/0.0.1680.1010/982.-768.1366.728/1680.0.1680.1010@0.0.1680.1010" timestamp="1607547416485" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Test/TesteDoAvaliador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="method#deveEntenderLancesEmOrdemCrescente#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEntenderLancesEmOrdemDecrescente#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEntenderLanceUnico#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEntenderLancesSemOrdem#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEncontrarOsTresMaiores#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveSelecionarLancesDe5000ParaCima#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEncontrarOsDoisMaiores#0;class#TesteDoAvaliador#0" />
+            <element signature="method#deveEncontrarListaVazia#0;class#TesteDoAvaliador#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/FiltroDeLances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Lance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Avaliador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Test/LeilaoTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="method#deveReceberUmLance#0;class#LeilaoTeste#0" />
+            <element signature="method#deveReceberVariosLances#0;class#LeilaoTeste#0" />
+            <element signature="method#naoDeveAceitarDoisLancesSeguidosDoMesmoUsuario#0;class#LeilaoTeste#0" />
+            <element signature="method#naoDeveAceitarMaisDoQue5LancesDeUmMesmoUsuario#0;class#LeilaoTeste#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
